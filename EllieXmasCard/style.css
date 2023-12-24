@@ -247,3 +247,32 @@ div.back {
         bottom: 5px;
         right: 10px;
     }
+
+img#bitmoji {
+  width: 40%;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  visibility: visible;
+  animation: 1s linear 0s 1 alternate visibility-switch-open;
+}
+
+img#bitmoji.hidden {
+  visibility: hidden;
+  animation: 1s linear 0s 1 alternate visibility-switch-close;
+}
+
+img#bitmoji2 {
+  width: 40%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  visibility: visible;
+  animation: 1s linear 0s 1 alternate visibility-switch-open;
+  transform: scaleX(-1);
+}
+
+img#bitmoji2.hidden {
+  visibility: hidden;
+  animation: 1s linear 0s 1 alternate visibility-switch-close;
+}

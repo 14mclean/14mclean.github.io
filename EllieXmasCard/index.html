@@ -14,9 +14,9 @@
         <div class="stage">
 
                 <div class="card front">
-                    <h2 id="front-text">Merry Christmas</h2>
+                    <h2 id="front-text">Merry Christmas!</h2>
 
-                    <h2 id="front-of-back-text">And a happy new year</h2>
+                    <h2 id="front-of-back-text">And have a happy new year</h2>
 
                     <div class="snow">❄</div>
                     <div class="snow">❄</div>
@@ -216,6 +216,9 @@
                     <div class="snow">❄</div>
                     <div class="snow">❄</div>
                     <div class="snow">❄</div>
+
+                    <img id="bitmoji" src="merry christmas.png">
+                    <img id="bitmoji2" class="hidden" src="happy new year.png">
                 </div>
 
                 <div class="card back">
@@ -251,6 +254,8 @@
                 });
                 aatwb_text.classList.toggle('open');
                 atwtts_text.classList.toggle('open');
+                document.querySelector("img#bitmoji").classList.toggle("hidden");
+                document.querySelector("img#bitmoji2").classList.toggle("hidden");
             });
         </script>
     </body>
